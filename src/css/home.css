@@ -1,0 +1,75 @@
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.blueBar, .whiteMap {
+    height: calc(100vh - 76px);
+}
+
+.blueBar {
+    flex: 1;
+    background-color: #959DB9;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.whiteBand {
+    width: 30%;
+    height: 5px;
+    background: white;
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.textEntete {
+    display: inline-block;
+    padding: 5px 0px 0px 5px;
+    font-weight: 800;
+    color: white;
+}
+
+.boxPokemon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: center;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.imagePokemon { flex: 1; }
+
+.imagePokemon img{ width: 100%; }
+
+.caracteristiquesPokemon { 
+    flex: 2;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+.coordoneesPokemon { 
+    flex: 2;
+    font-size: 14px;
+    background-color: #fff;
+    color: #1F3C47;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.equipePokemon img {
+    height: 20px;
+}
+
+.whiteMap {
+    flex: 3;
+    background-color: #fff;
+}

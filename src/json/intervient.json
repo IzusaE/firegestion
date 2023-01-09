@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "camionID": 4,
+        "feuID": 0,
+        "debut": 3,
+        "fin": null,
+        "commentaire": null
+    },
+    {
+        "id": 1,
+        "camionID": 2,
+        "feuID": 2,
+        "debut": 3,
+        "fin": null,
+        "commentaire": null
+    },
+    {
+        "id": 1,
+        "camionID": 3,
+        "feuID": 2,
+        "debut": 3,
+        "fin": null,
+        "commentaire": null
+    }
+]
